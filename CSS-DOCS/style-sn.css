@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 10%;
+    padding: 10px 10px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #08142e;
+}
+
+.open-page {
+    text-decoration: none;
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 600;
+    color: #1b4091;
+}
+
+.textoazul {
+    font-family: "Kulim Park", sans-serif;
+    color: #1b4091;
+
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Kulim Park", sans-serif;
+    font-size: 128px;
+    color: #F1F1F1;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+.logo-e-titulo {
+    background-color: #1b4091;
+    height: 140px;
+    padding: 0 15px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ancoras {
+    color: #1b4091;
+    background-color: #D4C023;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+}
+
+.siteoficial {
+    color: #1b4091;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pageselector {
+    color: #1b4091;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    gap: 15px;
+}
+
+main {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    height: 900px;
+
+    padding: 15px;
+}
+
+.linhas-de-noticias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+}
+
+.noticia {
+    background-color: rgb(177, 177, 177);
+    height: 89.5%;
+    width: 31.5%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.link-da-noticia {
+    font-family: "Kulim Park", sans-serif;
+    
+    position: relative;
+    height: 20px;
+    bottom: 18px;
+    background-color: #08142e;
+
+    text-indent: 5px;
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b4091;
+    height: 80px;
+}
+
+.secao-equipe {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.textorodape {
+    color: #F1F1F1;
+    font-family: "Kulim Park", sans-serif;
+}
